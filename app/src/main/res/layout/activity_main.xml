@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#27AFD8"
+    tools:context=".MainActivity">
+
+   <ImageView
+       android:layout_width="match_parent"
+       android:layout_height="126dp"
+       android:src="@drawable/img"/>
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center_horizontal"
+       android:text="WELCOME TO"
+       android:textColor="@color/white"
+       android:textSize="20sp"/>
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center_horizontal"
+       android:text="MUSIC APP"
+       android:textColor="@color/white"
+       android:textSize="30sp"/>
+
+   <EditText
+       android:id="@+id/login"
+       android:background="@drawable/bg_et"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_margin="16dp"
+       android:padding="4dp"
+       android:gravity="center"
+       android:hint="Log in"
+       android:textColor="@color/black"
+       android:textSize="25sp" />
+
+   <EditText
+       android:id="@+id/register"
+       android:background="@drawable/bg_et"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_margin="16dp"
+       android:padding="4dp"
+       android:gravity="center"
+       android:hint="Register"
+       android:textColor="@color/black"
+       android:textSize="25sp" />
+
+   <Button
+       android:id="@+id/access"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_margin="16dp"
+       android:text="Access"
+       android:textSize="16sp"
+       android:textAllCaps="false"/>
+
+   <EditText
+       android:id="@+id/forgotPassword"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:gravity="center"
+       android:textColor="@color/black"
+       android:text="Forgot password?"/>
+
+</LinearLayout>
